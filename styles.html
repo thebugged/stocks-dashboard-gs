@@ -1,0 +1,71 @@
+<style>
+    @font-face{
+        font-family: Dancing Script;
+        src: url(static/DancingScript-VariableFont_wght.ttf);
+    }
+
+
+    .title{
+       
+        font-family: DancingScript, cursive;
+        font-size: 3em;
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .watchlist_symbol_name) {
+        & p {
+            font-family: DancingScript;
+            font-size: 0.8em;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .watchlist_ticker) {
+        text-align: right;
+
+        & p {
+            font-size: 0.8em;
+            margin-bottom: 0;
+        }
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .watchlist_price_label) {
+        & p {
+            font-size: 0.8em;
+            margin-bottom: 0;
+        }
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .watchlist_price_value) {
+        & p {
+            margin-bottom: 0;
+        }
+    }
+
+
+    div[data-testid="stMetric"]{
+        background-color: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        padding: 1em 2em;
+        box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    }
+    
+    label [data-testid="stMetricLabel"] p {
+        font-size: 1em;
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .low_indicator) {
+        & div[data-testid="stMetric"] {
+            border-left: 0.2rem solid red;
+        }
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .high_indicator) {
+        & div[data-testid="stMetric"] {
+            border-left: 0.2rem solid green;
+        }
+    }
+
+</style>
+
