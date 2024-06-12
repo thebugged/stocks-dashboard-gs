@@ -18,8 +18,7 @@ st.html("styles.html")
 
 @st.cache_data
 def _read_service_account_secret():
-    with open("organic-service-296617-587588a7b064.json") as f:
-        return json.load(f)
+    return json.loads(st.secrets["textkey"])
 
 @st.cache_resource
 def connect_to_gsheets():
