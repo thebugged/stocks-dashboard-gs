@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://stocks-dashboard-gs.streamlit.app/" target="_blank">
-      <img src="https://github.com/thebugged/stocks-dashboard-gs/assets/74977495/75cf6dfb-cf6c-4eef-b235-9e8005e5b17c" alt="Banner">
+      <img src="https://github.com/thebugged/stocks-dashboard-gs/assets/74977495/27eac714-f62c-4137-a4aa-bf5762da923a" alt="Banner">
     </a>
   <br />
 
